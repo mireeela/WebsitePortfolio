@@ -1,0 +1,354 @@
+https://p5aholic.me/
+https://sometimesalways.com.au/
+https://juicymarbles.com/
+
+To me, this is what I'd recommend:
+
+Have an aesthetic. Doesn't have to be wild. Simple is fine. But work with it. Focus on keeping things refined and simple because people get caught up too much in the bells and whistles. Folks screw up margin/padding and placement stuff ALL THE TIME, so don't. And make sure it's mobile friendly.
+
+Tell me about yourself, equally professionally and personally. Add a photo, smile. Give me an impression of yourself as a person so I'd want to even talk to you for 5 minutes.
+
+List skills and tech, list projects and detail the tech used in them, provide github and live project links.
+
+Provide all the basic, overall detail on a single page that's not too long. Perhaps make other pages with links to go into them. For example, a project section with one image, description, and tech used--with three buttons, Github, Live Site, and Learn More. The Learn More button would be a separate page explaining the project in greater detail. But you can leverage the Github readme for this as well, and keep everything single page.
+
+Provide LinkedIn (or whatever is popular in your area), Github, email, and resume on your portfolio as a contact section, maybe sidebar, and in your menu. Resume should a link to a Google drive PDF, not a download button.
+
+Overall, try to make an impression on someone. Make them want to have a chat with you.
+
+
+
+
+
+HTML komandi:
+<!DOCTYPE html> <html> <head><title>Page Title><link rel="icon" type="image/x-icon" href="image.jpg"></head> <body> <footer> <h1>...<h6> <p> 
+<a href="link.com">Website Name = website link
+<img src="img.jpg"> = image
+<img src="img.jpg" alt="Image here"> = alt = alternative ako nqma snimka
+<html lang="en"> lang = language helps browser
+<p title="Im a tooltip">Hover Over = title shows when mouse hover over paragraph
+<hr> = horizontal rules = liniq
+<br> = line break
+<pre> = poema, zapazva mesta i novi redove
+<div> = box
+<b>, <strong> = bold text
+<i>, <em> = italic text
+<mark> = marked text
+<small> = smaller text
+<del> = deleted text s cherta
+<ins> = inserted text s podchertanie
+<sub> = subscript text
+<sup> = superscript text
+<blockquote cite="link.com"> = quoted section
+<q> = short quotation
+<abbr title="world health organisation>who = abbreviation or acronym, podchertava dumata i pokazva kakvo znachi when hoover
+<address> = adres v italic
+<cite> = creative work v italic
+<bdo dir="rtl"> = This text will be written from right to left
+<!-- Write your comments here -->
+<a href="website.com" target="_blank"> = otvarq linka v new tab
+<a href="website.com" <img src="img.jpg" alt="image"></a> = image as link
+<a href="mailto:someone@gmail.com">Send email</a> = open email program to email this email
+<button onclick="document.location='default.asp'">Button Link</button> = uses JavaScript, make button as a link
+<a href="website.com" title="go to website.com">visit website.com</a> = title shows when hoovering
+<a href="/html/default.asp">HTML tutorial</a> = Link to a page located in the html folder on the current web site
+<a href="default.asp">HTML tutorial</a> = Link to a page located in the same folder as the current page 
+<h1 id="C4">Chapter 4</h1> = id = bookmark
+<a href="#C4">Jump to Chapter 4</a> from within the same page
+<a href="html_demo.html#C4">Jump to Chapter 4</a> on another page
+<img src="workplace.jpg" usemap="#workmap"><map name="workmap"><area shape="rect" coords="34,44,270,350" href="computer.com">
+<area shape="circle","poly","default"><area coord="34,44"=34px from left margin & 44px from the top; "270,350"=270px from left & 350px from top> 
+circle - 337,300=center of circle;44=radius
+<area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm">
+onclick="myFunction()";
+<picture> = more flexibility in specifying image resources
+  <source media="(min-width: 650px)" srcset="img_food.jpg"> = different images through the srcset
+  <source media="(min-width: 465px)" srcset="img_car.jpg"> = browser choose the image that best fits the current device
+  <img src="img_girl.jpg"> = media attribute that defines when the image is the most suitable
+</picture>
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+<table> = defines a table
+<th> = Defines a header cell in a table
+<tr>	Defines a row in a table
+<td>	Defines a cell in a table
+<caption>	Defines a table caption
+<colgroup>	Specifies a group of one or more columns in a table for formatting
+<col>	Specifies column properties for each column within a <colgroup> element
+<thead>	Groups the header content in a table
+<tbody>	Groups the body content in a table
+<tfoot>	Groups the footer content in a table
+<th colspan="2"> = header that spans over two or more columns
+<th rowspan="2"> = make a cell span over multiple rows
+<caption> = To add a caption to a table
+tr:nth-child(even) = To style every other table row element
+td:nth-child(even), th:nth-child(even) = To make vertical zebra stripes, style every other column
+<col> = Each group is specified in <colgroup>
+<col span="2" = specifies how many columns that get the style
+<ul> = unordered list
+  <li>Coffee</li> = item in list
+<ol> = ordered list
+<dl> = description list
+  <dt>Coffee</dt> = description tag
+  <dd>- black hot drink</dd> = description description
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+<ol type="1"> = ordered by numbers
+type="A" = uppercase letters
+type="a" = lowercase letters
+type="I" = uppercase roman numbers
+type="i" = lowercase roman numbers
+<div> = block element start new line
+<span> = block element inline
+<class = "classname"> = class naming elements
+<id = "idname"> = id naming elements
+<iframe src="url.com" title="description"> = show webpage in the webpage
+<script> JavaScript </script> = writing JavaScript commands (->Organisation)
+JavaScript can change content; style; attributes
+<link> = relationship between the current document and an external resource
+<meta> = specify the character set, page description, keywords, author of the document, and viewport settings
+<meta charset="UTF-8"> = Define the character set used
+<meta name="keywords" content="HTML, CSS, JavaScript"> = Define keywords for search engines
+<meta name="description" content="Free Web tutorials"> = Define a description of your web page
+<meta name="author" content="John Doe"= Define the author of a page
+<meta http-equiv="refresh" content="30"> = Refresh document every 30 seconds
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> = Setting the viewport to make your website look good on all devices
+<nav> - Defines a set of navigation links
+<section> - Defines a section in a document
+<article> - Defines an independent, self-contained content
+<aside> - Defines content aside from the content (like a sidebar)
+<details> - Defines additional details that the user can open and close on demand
+<summary> - Defines a heading for the <details> element
+width property is set to 100%, the image will be responsive and scale up and down
+max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size
+font-size:10vw = text size will follow the size of the browser window
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+emojis and symbols have specific codes 
+<form action="actionpage.php" target="_blank" method="get/post" autocomplete="on" novalidate> =  form-data will be sent to a page called "/action_page.php"
+<input type="text">	Displays a single-line text input field
+<input type="radio">	Displays a radio button (for selecting one of many choices)
+<input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+<input type="submit">	Displays a submit button (for submitting the form)
+<input type="button">	Displays a clickable button
+_blank	The response is displayed in a new window or tab
+_self	The response is displayed in the current window
+_parent	The response is displayed in the parent frame
+_top	The response is displayed in the full body of the window
+framename	The response is displayed in a named iframe
+in form:
+<input>
+<label>
+<select id="cars" name="cars" size="4" multiple>
+<textarea>
+<button>
+<fieldset>
+<legend>
+<datalist id="browsers">
+<output>
+<option>
+<optgroup>
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+attributes: value; readonly; disabled; size; maxlength; min/max; multiple; pattern; placeholder; required; step; autofocus; height/width; list; autocomplete; form; formaction; formenctype; formmethod; formtarget; formnovalidate; novalidate; 
+<canvas> element is used to draw graphics on a web page
+<svg> element is a container for SVG graphics = Scalable Vector Graphics
+html media (video, audio, plugins, YouTube)
+html api (geolocation, drag/drop, webstorage, web worker, sse)
+
+
+
+
+
+
+
+
+JavaScript
+<area shape="circle" onclick="myFunction()"> <script> function myFunction(){ alert("You clicked the coffee cup"); } </script>
+function myFunction(){}
+alert("Alert!")
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> show date <> = button
+
+
+
+
+
+
+Style:
+<body style="background-color:green;"> = styling HTML elements, set background color
+color = text colors
+font-family = text fonts
+font-size = text sizes
+text-align = text alignment (on the page/box/space it is in): center, left, right
+border:2px solid black 
+border-collapse: collapse; = into a single border
+border-radius: 10px; = get rounded corners
+border-style: dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden
+border-color: black;
+border-spacing: 30px; change the space between table cells
+border-bottom: 1px solid black = borders only at the bottom
+background-color:rgb(255,99,71), #ffffff, hsl(9, 100%, 64%), rgba(255,99,71,0.5),hsla(9,100%, 64%, 0.5)
+padding: 30px dobavq ramka prostranstvo between text and broder
+padding-top: 10px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 40px;
+margin: 50px dobavq ramka prostranstvo outside broder
+text-decoration: none, underline
+a:link(unvisited)
+a:visited
+a:hover
+a:active(when clicked on)
+display: inline-block, block
+float: right, left = make picture float to right or left
+background-image: url('img.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed; = entire element is always covered (image will keep its original proportions)
+background-size: cover; = cover the entire element
+background-size: 100% 100%; = stretch to fit the entire element;
+<ul style="list-style-type:disc (item marker to bullet), circle, square, none
+overflow: hidden;
+<width: 300% margin:auto> =  center-align div
+overflow: auto; float: left; width: 100%; = using float to align divs side by side
+width: 30%; display: inline-block = using display to align divs side by side
+display: flex (-> in big block); width: 30% (-> in smaller block) = using flex to align devs side by side
+display: grid; grid-template-column: 33% 33% 33%; = using grid to align divs side by side
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background
+border-width
+border-color
+border-sides
+border-radius
+outline-style
+outline-color
+outline-width
+outline-offset
+outline
+text-color
+text-align
+text-align-last
+direction
+unicode-bidi
+vertical-align
+text-decoration-line
+text-decoration-color
+text-decoration-style
+text-decoration-thickness
+text-decorationtext-transform
+text-indent
+letter-spacing
+line-height
+word-spacing
+white-space
+text-shadow
+font-family
+list-style
+list-style-type
+list-style-image
+list-style-position
+vertical-align
+overflow-x:auto around the <table> element to make it responsive
+display: inline; block; inline-block; none;
+visibility: hidden;
+position: static; relative; fixed; absolute; sticky
+z-index = specifies the stack order of an element
+overflow: visible; hidden; scroll; auto
+overflow-x; overflow-y
+float: left; right; none; inherit = how an element should float
+clear: none; left; right; both; inherit = specifies what should happen with the element that is next to a floating element
+combinators = something that explains the relationship between the selectors:
+Descendant combinator (space)
+Child combinator (>)
+Next sibling combinator (+)
+Subsequent-sibling combinator (~)
+pseudo-classes:
+a:link a:visited a:hover a:active a:highlight:hover  div:hover p  
+p:first-child = matches a specified element that is the first child of another element
+p i:first-child = matches the first <i> element in all <p> elements
+pseudo-elements:
+p::first-line
+p::first-letter
+p.intro::first-letter
+h1::before = insert some content before the content of an element
+h1::after = insert some content after the content of an element
+::marker = selects the markers of list items
+::selection = matches the portion of an element that is selected by a user
+opacity = opacity/transparency of an element
+dropdown = dropdown box that appears when the user moves the mouse over an element
+.dropdown-content
+div.gallery
+div.desc
+a[target] = selector is used to select elements with a specified attribute
+a[target="_blank"] = used to select elements with a specified attribute and value
+[title~="flower"] = used to select elements with an attribute value containing a specified word
+counter-reset - Creates or resets a counter
+counter-increment - Increments a counter value
+content - Inserts generated content
+counter() or counters() function - Adds the value of a counter to an element
+gardients
+shadows
+text effects
+2d/3d transforms;
+rotateX()
+rotateY()
+rotateZ()
+transitions
+animations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
